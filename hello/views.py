@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def hello_view(request):
-    return HttpResponse("Hello, Oleksandr")  # замени на своё имя
+    return HttpResponse("Hello, Oleksandr")
